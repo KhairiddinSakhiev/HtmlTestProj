@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black; 
+    padding: 20px;   
+    font-size: 1.2em;  
+    text-transform: uppercase;  
+}
+nav ul li a:hover{
+    background-color: lightgrey;
+}
+.nav-logo h3{
+    padding: 20px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+header nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;    
+}
+header{
+    height: 100vh;
+    background-image: url("./Images/mac.jpg");
+    background-position: 50% 50%;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;    
+}
+
+header h1, p, a{
+    color: white;
+    text-decoration: none;    
+    padding: 15px;
+    margin: 15px;
+}
+
+.header-content{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+.header-content a{
+    background-color: rgba(192, 176, 176, 0.7);
+    font-size: 30px;
+}
+.header-content a:hover
+{
+    background-color: grey;
+}
+.content-item{
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center; 
+    font-size: 1.5em; 
+    
+}
+
+.content-item p{
+    color: black;
+}
+.content-item i{
+    font-size: 3em;
+}
+.middle-content{
+    display: flex;
+    margin-top: 40px;
+}
+h2{
+    text-align: center;
+    padding: 15px;
+    font-size: 2em;
+    font-weight: 100;
+}
+h5{
+    text-align: center;
+    padding: 15px;
+    font-size: 1.3em;
+    font-weight: 100;
+}
